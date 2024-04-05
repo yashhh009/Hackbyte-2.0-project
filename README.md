@@ -30,7 +30,8 @@ Also, discussing potential scalability and customization options can add value b
 Figure 1. Block diagram IoT-based Air Pollution Monitoring
 System.
 
-4. Literature Review
+4. **Literature Review**
+
 In one study, the above model was used to estimate the amount of pollutants in air, including carbon monoxide (CO), nitric oxide (NO), nitrogen dioxide (NO2), sulfur dioxide (SO2), carbon black (BC). methane. (CH4), non-methane hydrocarbons (NMHC) and ozone (O3), etc.
 Create a regression model by dividing the day into three periods: 06:00 - 10:00, 10:00 - 14:00, 14:00 - 19:00 Try using descriptive tools for data collection right now Analysis using predictive analytics Make future planning predictions.
 This approach allows a comprehensive analysis of pollution levels over different time periods, providing insight into physical changes and their underlying patterns. Using descriptive and predictive analysis, this study aims to not only describe the current situation but also predict future trends to support decision-making on air quality and mitigation strategies.
@@ -48,7 +49,8 @@ v)Model Validation and Uncertainty Assessment:  The forecast model used for air 
 vi)Integration of New Science:  Advances in electronics, remote sensing, and unmanned aerial vehicles (UAVs) provide opportunities to improve air quality standards and weather monitoring capabilities. However, there may be difficulties in integrating these new technologies into existing monitoring networks and models and ensuring data quality and reliability. Finding new ways to integrate new technologies could help fill the gap in climate monitoring.
 
 In the future, we aim to use the collected data to perform predictive analysis to predict hotspots requiring pollution measures. By analyzing historical data on air pollution, weather and geography, we can identify areas where air pollution may have increased. This positive approach leads to effective plans to reduce pollution, improve resource allocation and protect public health. Through forecasting, we can prioritize pollution control and solve environmental problems before they arise, thus promoting sustainable development and the health of society.
-5. Methodology  
+
+5. **Methodology**  
 
 Explain is a comprehensive, multi-step approach, supported by product assembly and delivery, that seamlessly transforms raw data into actionable processes to facilitate improved customer service. The key to this process is the continuous storage of data and the ability to visualize it in real time, making changes fast and effective. This approach uses descriptive statistics and machine learning algorithms to provide research data with the potential for deep analysis and predictive modeling to support how decisions are made. Developed with powerful data visualization tools, the approach empowers stakeholders and supports decision-making by providing analytical insights through interactive visualizations.
 
@@ -62,7 +64,7 @@ This section provides intricate details with detailed instructions for each step
 
 Figure 3. Flow diagram working of MQ sensors.
 
- 5. Advantages and Conclusion  
+ 5.**Advantages and Conclusion**  
 
 The pollution monitoring station system has many advantages over the traditional system, including cost-effectiveness, monitoring time, data collection, forecasting ability and user relations. In summary, the development of these pollutant monitoring stations is an important step towards sustainable environmental management and provides stakeholders with a better understanding of how to reduce pollution and protect the environment.
 
