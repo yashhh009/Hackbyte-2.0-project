@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pollution Levels</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Pollution Levels and predictions</h1>
+    </header>
+    <main>
+        <section id="pollutants">
+            <div class="pollutant" id="co">
+                <h2>CO</h2>
+                <p class="value">Loading...</p>
+                <p class="description">Carbon Monoxide</p>
+            </div>
+            <div class="pollutant" id="no2">
+                <h2>NO2</h2>
+                <p class="value">Loading...</p>
+                <p class="description">Nitrogen Dioxide</p>
+            </div>
+            <div class="pollutant" id="no">
+                <h2>NO</h2>
+                <p class="value">Loading...</p>
+                <p class="description">Nitric Oxide</p>
+            </div>
+            <div class="pollutant" id="no3">
+                <h2>NO3</h2>
+                <p class="value">Loading...</p>
+                <p class="description">Nitrate</p>
+            </div>
+            <div class="pollutant" id="natural_gas">
+                <h2>Natural Gas</h2>
+                <p class="value">Loading...</p>
+                <p class="description">Methane</p>
+            </div>
+            <div class="pollutant" id="ozone">
+                <h2>Ozone</h2>
+                <p class="value">Loading...</p>
+                <p class="description">O3</p>
+            </div>
+            <div class="pollutant" id="so2">
+                <h2>SO2</h2>
+                <p class="value">Loading...</p>
+                <p class="description">Sulfur Dioxide</p>
+            </div>
+        </section>
+        <button onclick="redirectToPredictionPage()">Go to Prediction</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Pollution Monitor</p>
+    </footer>
+
+    <script>
+        async function fetchData() {
+            const apiKey = '44FTSLPW3XZENNWK';
+            const channelID = ' 2475645';
+            const fieldNumber = '1'; 
+
+            const url = `https://api.thingspeak.com/channels/ 2475645/fields/1.json?api_key=${apiKey}&results=1`;
+
+            try {
+                const response = await fetch(url);
+                const data = await response.json();
+                const feeds = data.feeds[0];
+                document.getElementById('co').querySelector('.value').textContent = feeds.field1 + ' ppm';
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+            
+        }
+
+        function redirectToPredictionPage() {
+            window.location.href = "/prediction";
+        }
+
+        fetchData();
+        setInterval(fetchData, 30000);
+    </script>
+</body>
+</html>
