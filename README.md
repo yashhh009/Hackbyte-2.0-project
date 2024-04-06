@@ -1,4 +1,4 @@
-# POLLUTION PREDICTION SYSTEM
+# POLLUTION PREDICTION AND DETECTION SYSTEM
 1.**Introduction**
   Air pollution is not only a global threat but also an urgent problem for environmental safety and public health. The rapid expansion of cities and industrialization has made this problem even more serious, causing emissions in air, water,and soil to become alarming. Traditional monitoring relies on regular sampling and laboratory testing and often fails to provide the timely and comprehensive information needed for effective air quality management. Therefore, the need for new solutions to solve this problem is increasing.
 
@@ -16,7 +16,8 @@ Air pollution remains a global threat and poses a threat to environme
 
 These guidelines emphasize the seriousness of the pollution problem and form the basis of solutions. It shows the inadequacy of traditional practices and the urgent need for new ideas. This introductory article aims to engage readers by presenting the background and reasons for the solutions, thereby highlighting the need to cut decisively toward solving pollution.
 
-  3. **Design and Functionality of the Proposed System**  
+  
+3. **Design and Functionality of the Proposed System**  
 
 The basis of the operation of this system is the careful design and development of the customer's pollution control station. These stations are important data collection points and are equipped with one of the sensors that can quickly detect various diseases. The data collected by these sensors is sent wirelessly to the central office for analysis. Additionally, the system has an intuitive user interface that makes it easy for stakeholders to view real-time information. In addition, cloud solutions provide long-term data storage, ensuring easy access and data integrity over time.
 
