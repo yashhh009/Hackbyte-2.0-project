@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload CSV for Prediction</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Upload CSV for Prediction</h1>
+    </header>
+    <main>
+        <form action="/predict" method="post" enctype="multipart/form-data">
+            <input type="file" name="data_file" accept=".csv" required>
+            <button type="submit">Upload and Predict</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Pollution Prediction</p>
+    </footer>
+</body>
+</html>
